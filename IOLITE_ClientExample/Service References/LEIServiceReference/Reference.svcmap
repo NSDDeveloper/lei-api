@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="01ee4149-6adf-4457-bd8f-52c92c09f8eb" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies>
+      <ReferencedAssembly AssemblyName="System.Xml.Linq" />
+    </ReferencedAssemblies>
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://gw.nsd.ru/IOLITE/ClientProxyService/CorpDB_WS?WSDL" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ClientProxyService.wsdl" MetadataType="Wsdl" ID="c4bad40d-caa2-4e7b-9cb3-87896159fb9c" SourceId="1" SourceUrl="https://gw.nsd.ru/IOLITE/ClientProxyService/CorpDB_WS?WSDL" />
+    <MetadataFile FileName="CorpDB_WS.xsd" MetadataType="Schema" ID="88b3f571-e7ae-4242-81b4-48513ec5296d" SourceId="1" SourceUrl="https://gw.nsd.ru/IOLITE/ClientProxyService/CorpDB_WS?SCHEMA%2FClientProxyService%2Fxml" />
+    <MetadataFile FileName="CorpDB_WS1.xsd" MetadataType="Schema" ID="d3e722a2-f197-4cd5-86bc-a8fec65950e1" SourceId="1" SourceUrl="https://gw.nsd.ru/IOLITE/ClientProxyService/CorpDB_WS?SCHEMA%2FClientProxyService%2F2017_03_21_LEI_CDF_2_0_XML_Schema_V2.1" />
+    <MetadataFile FileName="CorpDB_WS2.xsd" MetadataType="Schema" ID="8158b83a-8bca-4c78-a97f-80085559006b" SourceId="1" SourceUrl="https://gw.nsd.ru/IOLITE/ClientProxyService/CorpDB_WS?SCHEMA%2FClientProxyService%2Fsoap" />
+    <MetadataFile FileName="CorpDB_WS3.xsd" MetadataType="Schema" ID="343e3584-bddb-40d8-a690-8f6a977784fe" SourceId="1" SourceUrl="https://gw.nsd.ru/IOLITE/ClientProxyService/CorpDB_WS?SCHEMA%2FClientProxyService%2FclientService" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
